@@ -1,6 +1,6 @@
-# Bay-Pilates-Wellness
+# Bend-Authentic-Pilates
 
-Live Site: [baypilateswellness.com](https://baypilateswellness.com/)
+Live Site: [bendauthenticpilates.com](https://bendauthenticpilates.com/)
 
 Pilates &amp; Wellness site for Isabelle.
 
