@@ -5,7 +5,7 @@ $(document).ready(function () {
             $('nav ul').toggleClass('toggle-overflow')
       });
       $(".dropdown-toggle").on("click", function () {
-            if ($(window).width() < 1000) {
+            if ($(window).width() < 1100) {
                   $(".show-submenu").hide()
                   $(".hidden-submenu").show()
             }
@@ -24,7 +24,7 @@ $(window).on("scroll", function () {
             $('a').css('color', 'white')
       }
 
-      else if ($(window).width() > 1000) {
+      else if ($(window).width() > 1100) {
             $('nav').removeClass('black');
             $('nav ul').toggleClass('toggle-overflow')
             $('.logo').css('color', '#000058')
@@ -33,17 +33,17 @@ $(window).on("scroll", function () {
 })
 
 $(window).resize(function () {
-      if ($(window).width() > 1000) {
+      if ($(window).width() > 1100) {
             $('nav ul').css('overflow', 'visible')
       }
-      if ($(window).width() < 1000) {
+      if ($(window).width() < 1100) {
             $('nav').removeClass('black');
             $('nav ul').toggleClass('toggle-overflow')
             $('.logo').css('color', 'white')
             $('a').css('color', 'white')
 
       }
-      else if ($(window).width() > 1000 && window.scrollY !== 0) {
+      else if ($(window).width() > 1100 && window.scrollY !== 0) {
             $('nav').addClass('black');
             $('.logo').css('color', 'white')
             $('a').css('color', 'white')
