@@ -474,6 +474,10 @@ footer {
   margin-bottom: 1px;
 }
 
+.blue-background {
+  background: lightblue;
+  text-align: center;
+}
 
 
 
@@ -531,14 +535,13 @@ footer {
 
   .menu-icon {
         display: block;
-        background:  #000058;
+        
   }
 
   .dropdown-menu {
     top: -190px !important;
     left: 70% !important;
   }
-
 }
 
 
