@@ -9,13 +9,6 @@ body, .content, .info-title, .info-title-header, .logo, nav, h3 {
   font-weight: lighter;
 }
 
-.leap-link {
-  color: blue !important;
-}
-
-.force-black {
-  color: black !important;
-}
 
 #contactform {
   margin: auto;
@@ -548,6 +541,14 @@ footer {
 
 }
 
+
+.leap-link {
+  color: blue !important;
+}
+
+.force-black {
+  color: black !important;
+}
 
 
 @media only screen and (max-device-width: 1366px) {
