@@ -13,6 +13,10 @@ body, .content, .info-title, .info-title-header, .logo, nav, h3 {
   color: blue !important;
 }
 
+.force-black {
+  color: black !important;
+}
+
 #contactform {
   margin: auto;
   width: 80%
